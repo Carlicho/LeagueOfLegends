@@ -1,0 +1,36 @@
+
+Certainly! Based on the provided code snippets and the changes we made, here's an overview of how your React application works:
+
+React Application Overview
+1. Folder Structure:
+The project is organized into components, with a specific file structure.
+Components are separated into a folder, such as components, and have associated styles in a css file.
+2. App.js:
+Serves as the main entry point for the React application.
+Manages the overall state of the application, including searchText and playerData.
+Utilizes the Axios library for making HTTP requests to the League of Legends API.
+Renders the Cabecera component, passing down necessary state and functions as props.
+3. Cabecera.jsx:
+Represents the header component of the application.
+Receives searchText, setSearchText, and onSearch as props.
+Displays a title, an input field for entering the player's name, and a button to initiate the search.
+Updates the input value using the searchText prop and triggers the search function (onSearch) when the button is clicked.
+4. Functionality:
+User enters a player's name in the Cabecera component.
+The entered text is managed by the searchText state in the App component.
+When the search button is clicked, the onSearch function in the App component is triggered.
+The onSearch function constructs an API call and uses Axios to fetch data from the League of Legends API.
+The received data is stored in the playerData state in the App component.
+The application conditionally renders player information or a message indicating that no data is available.
+5. Styling:
+Bootstrap is used for styling, as indicated by the import of the Bootstrap CSS file.
+6. Footer:
+A static footer displaying a message related to the League of Legends API is rendered at the bottom of the page.
+7. State Management:
+State related to the player's name (searchText) and player data (playerData) is managed in the App component.
+These states are passed down as props to the Cabecera component for user interaction.
+8. Error Handling:
+Basic error handling using catch in the Axios request to log errors to the console.
+9. Development Workflow:
+The application leverages React hooks (useState) for managing state in functional components.
+The components are structured to maintain a clear separation of concerns.

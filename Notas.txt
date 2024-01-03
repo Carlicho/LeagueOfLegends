@@ -1,0 +1,5 @@
+Educacion It Clase1: Listo
+
+bootstrap 
+    -Contenedor: alert bg-dark
+    -texto: text-light

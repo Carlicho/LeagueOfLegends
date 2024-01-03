@@ -1,0 +1,19 @@
+.mainapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+    padding: 2px;
+}
+
+.mainapp img{
+    display: flex;
+    width: 90px;
+    height: auto;
+    margin: 1rem;
+    justify-content: centen;
+    min-width: max-content;
+
+}
